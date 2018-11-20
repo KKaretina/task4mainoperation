@@ -13,6 +13,6 @@ public class Task3 {
         float rub = scanner.nextFloat();
 
         float course = (rub / charge);
-        System.out.print(rub + " рублей вы можете обменять на " + course + " долларов");
+        System.out.print(String.format("%.2f", rub) + " рублей вы можете обменять на " + String.format("%.2f", course) + " долларов");
     }
 }
